@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/albumRowLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/album_row_layout_height"
+    android:layout_marginTop="@dimen/album_row_layout_margin_top"
+    android:layout_marginBottom="@dimen/album_row_layout_margin_bottom"
+    android:background="@drawable/rounded">
+
+    <TextView
+        android:id="@+id/albumRowId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/album_row_id_margin_start"
+        android:layout_marginTop="@dimen/album_row_layout_margin_top"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/album_row_id"
+        android:textSize="@dimen/album_row_id_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/albumRowTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/album_row_title_margin_top"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/album_row_title"
+        android:textSize="@dimen/album_row_title_text_size"
+        app:layout_constraintStart_toStartOf="@+id/albumRowId"
+        app:layout_constraintTop_toBottomOf="@+id/albumRowId" />
+</androidx.constraintlayout.widget.ConstraintLayout>

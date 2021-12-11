@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/rounded_background"/>
+    <stroke android:width="@dimen/rounded_width" android:color="@color/rounded_stroke" />
+    <corners android:radius="@dimen/rounded_radius"/>
+    <padding android:left="@dimen/rounded_padding" android:top="@dimen/rounded_padding" android:right="@dimen/rounded_padding" android:bottom="@dimen/rounded_padding" />
+</shape>

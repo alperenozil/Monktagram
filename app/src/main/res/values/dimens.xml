@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // they must be 4x ( 4, 8, 12, 16, ... , 2400 )
+    // album_row_id
+    <dimen name="album_row_id_margin_start">16dp</dimen>
+    <dimen name="album_row_id_margin_top">16dp</dimen>
+    <dimen name="album_row_id_text_size">20sp</dimen>
+    // album_row_layout
+    <dimen name="album_row_layout_height">100dp</dimen>
+    <dimen name="album_row_layout_margin_top">16dp</dimen>
+    <dimen name="album_row_layout_margin_bottom">4dp</dimen>
+    // album_row_title
+    <dimen name="album_row_title_margin_top">4dp</dimen>
+    <dimen name="album_row_title_text_size">20sp</dimen>
+    // rounded
+    <dimen name="rounded_width">4dp</dimen>
+    <dimen name="rounded_radius">8dp</dimen>
+    <dimen name="rounded_padding">4dp</dimen>
+    // shimmer_layout
+    <dimen name="shimmer_layout_height">100dp</dimen>
+    <dimen name="shimmer_margin_top">4dp</dimen>
+    <dimen name="shimmer_margin_bottom">4dp</dimen>
+
+</resources>
