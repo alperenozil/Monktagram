@@ -1,4 +1,4 @@
-package tech.ozil.monktagram
+package tech.ozil.monktagram.data.network
 
 import retrofit2.Response
 import retrofit2.http.GET

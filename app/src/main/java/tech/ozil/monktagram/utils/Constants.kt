@@ -1,4 +1,4 @@
-package tech.ozil
+package tech.ozil.monktagram.utils
 
 class Constants {
     companion object{
