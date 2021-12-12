@@ -10,3 +10,4 @@ MediaMonks android homework
 - **[Coroutines](https://github.com/Kotlin/kotlinx.coroutines):** Asynchronous programming
 - **[Coil](https://github.com/coil-kt/coil):** Image loading and caching
 - **[Retrofit](https://github.com/square/retrofit):** Type safe HTTP client
+- **[Shimmer](https://github.com/omtodkar/ShimmerRecyclerView):** Placeholder for recyclerview while loading data
