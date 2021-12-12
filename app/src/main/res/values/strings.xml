@@ -8,4 +8,6 @@
     // album_row_layout
     <string name="album_row_id">albumRowId</string>
     <string name="album_row_title">albumRowTitle</string>
+    // photo_row_layout
+    <string name="photo_row_title">photoRowTitle</string>
 </resources>

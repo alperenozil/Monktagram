@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_albums.view.*
+import kotlinx.android.synthetic.main.fragment_photos.view.*
 import tech.ozil.monktagram.ui.main.MainViewModel
 import tech.ozil.monktagram.R
 import tech.ozil.monktagram.adapter.AlbumAdapter
@@ -33,7 +34,6 @@ class AlbumsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         mView = inflater.inflate(R.layout.fragment_albums, container, false)
         setupRecyclerView()
         requestAlbumData()

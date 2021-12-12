@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import tech.ozil.monktagram.databinding.AlbumRowLayoutBinding
 import tech.ozil.monktagram.model.Album
 import tech.ozil.monktagram.model.AlbumItem
-import tech.ozil.monktagram.utils.AlbumsDiffUtil
+import tech.ozil.monktagram.utils.contentDiffUtil
 
 class AlbumAdapter : RecyclerView.Adapter<AlbumAdapter.AlbumViewHolder>() {
 
@@ -44,7 +44,7 @@ class AlbumAdapter : RecyclerView.Adapter<AlbumAdapter.AlbumViewHolder>() {
 
     fun setData(newData: Album){
         val albumsDiffUtil =
-            AlbumsDiffUtil(albums, newData)
+            contentDiffUtil(albums, newData)
         val diffUtilResult = DiffUtil.calculateDiff(albumsDiffUtil)
         albums = newData
         diffUtilResult.dispatchUpdatesTo(this)

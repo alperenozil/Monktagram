@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="photoItem"
+            type="tech.ozil.monktagram.model.PhotoItem" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/photoRowLayout"
+        onPhotoClickListener="@{photoItem}"
+        android:background="@drawable/rounded"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/photo_row_layout_height"
+        android:layout_marginTop="@dimen/photo_row_layout_margin_top"
+        android:layout_marginBottom="@dimen/photo_row_layout_margin_bottom">
+
+        <ImageView
+            android:id="@+id/imageView"
+            loadImageFromUrl="@{photoItem.thumbnailUrl}"
+            android:layout_width="@dimen/photo_row_image_width"
+            android:layout_height="@dimen/photo_row_image_height"
+            android:layout_marginStart="@dimen/photo_row_image_margin_start"
+            android:layout_marginTop="@dimen/photo_row_layout_margin_top"
+            android:layout_marginBottom="@dimen/photo_row_image_margin_bottom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rounded" />
+
+        <TextView
+            android:id="@+id/photoRowTitle"
+            android:layout_width="@dimen/photo_row_image_width"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/photo_row_text_margin_start"
+            android:layout_marginEnd="@dimen/photo_row_text_margin_end"
+            android:fontFamily="@font/lalezar"
+            android:text="@{photoItem.title}"
+            android:textSize="@dimen/photo_row_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

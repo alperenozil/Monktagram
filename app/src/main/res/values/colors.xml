@@ -11,4 +11,5 @@
     // rounded
     <color name="rounded_stroke">#000000</color>
     <color name="rounded_background">#FFFFFFFF</color>
+    <color name="rounded_gray">#F5F5F5</color>
 </resources>

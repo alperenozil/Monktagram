@@ -12,6 +12,21 @@
     // album_row_title
     <dimen name="album_row_title_margin_top">4dp</dimen>
     <dimen name="album_row_title_text_size">20sp</dimen>
+    // photo_row_layout
+    <dimen name="photo_row_layout_height">200dp</dimen>
+    <dimen name="photo_row_layout_margin_top">4dp</dimen>
+    <dimen name="photo_row_layout_margin_bottom">4dp</dimen>
+    // photo_row_image
+    <dimen name="photo_row_image_height">0dp</dimen>
+    <dimen name="photo_row_image_width">144dp</dimen>
+    <dimen name="photo_row_image_margin_top">16dp</dimen>
+    <dimen name="photo_row_image_margin_bottom">16dp</dimen>
+    <dimen name="photo_row_image_margin_start">16dp</dimen>
+    // photo_row_text
+    <dimen name="photo_row_text_width">0dp</dimen>
+    <dimen name="photo_row_text_margin_start">8dp</dimen>
+    <dimen name="photo_row_text_margin_end">8dp</dimen>
+    <dimen name="photo_row_text_size">20sp</dimen>
     // fragment_albums
     <dimen name="fragment_albums_margin_start">8dp</dimen>
     <dimen name="fragment_albums_margin_end">8dp</dimen>
@@ -32,4 +47,9 @@
     <dimen name="shimmer_layout_bottom_view_height">40dp</dimen>
     <dimen name="shimmer_layout_bottom_view_width">320dp</dimen>
     <dimen name="shimmer_layout_bottom_view_margin_top">16dp</dimen>
+    // shimmer_layout_photo
+    <dimen name="shimmer_layout_photo_width">160dp</dimen>
+    <dimen name="shimmer_layout_photo_height">20dp</dimen>
+    <dimen name="shimmer_layout_photo_margin_top">16dp</dimen>
+    <dimen name="shimmer_layout_photo_margin_start">16dp</dimen>
 </resources>

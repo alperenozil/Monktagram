@@ -13,14 +13,6 @@ import tech.ozil.monktagram.ui.albums.AlbumsFragmentDirections
 class AlbumRowBinding {
     companion object {
 
-        @BindingAdapter("loadImageFromUrl")
-        @JvmStatic
-        fun loadImageFromUrl(imageView: ImageView, imageUrl: String) {
-            imageView.load(imageUrl) {
-                crossfade(600)
-            }
-        }
-
         @BindingAdapter("setAlbumId")
         @JvmStatic
         fun setAldumId(textView: TextView, aldumId: Int){
