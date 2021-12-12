@@ -3,7 +3,7 @@ package tech.ozil.monktagram.utils
 import androidx.recyclerview.widget.DiffUtil
 import tech.ozil.monktagram.model.AlbumItem
 
-class contentDiffUtil<T>(private val oldList: List<T>, private val newList: List<T>) :
+class DataDiffUtil<T>(private val oldList: List<T>, private val newList: List<T>) :
     DiffUtil.Callback() {
     override fun getOldListSize(): Int {
         return oldList.size

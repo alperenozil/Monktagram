@@ -30,6 +30,19 @@
     // fragment_albums
     <dimen name="fragment_albums_margin_start">8dp</dimen>
     <dimen name="fragment_albums_margin_end">8dp</dimen>
+    // fragment_details
+    <dimen name="fragment_details_image">400dp</dimen>
+    <dimen name="fragment_details_album_text_margin_start">16dp</dimen>
+    <dimen name="fragment_details_album_text_margin_top">32dp</dimen>
+    <dimen name="fragment_details_album_text_size">20sp</dimen>
+    <dimen name="fragment_details_photo_text_margin_top">32dp</dimen>
+    <dimen name="fragment_details_photo_text_size">20sp</dimen>
+    <dimen name="fragment_details_title_text_size">20sp</dimen>
+    <dimen name="fragment_details_title_margin_top">32dp</dimen>
+    <dimen name="fragment_details_title_margin_end">16dp</dimen>
+    <dimen name="fragment_details_album_number_margin_start">16dp</dimen>
+    <dimen name="fragment_details_album_number_text_size">20sp</dimen>
+    <dimen name="fragment_details_photo_number_text_size">20sp</dimen>
     // rounded
     <dimen name="rounded_width">4dp</dimen>
     <dimen name="rounded_radius">8dp</dimen>

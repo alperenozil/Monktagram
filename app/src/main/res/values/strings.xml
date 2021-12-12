@@ -10,4 +10,11 @@
     <string name="album_row_title">albumRowTitle</string>
     // photo_row_layout
     <string name="photo_row_title">photoRowTitle</string>
+    // fragment_details
+    <string name="album_text_view">Album:</string>
+    <string name="photo_text_view">Photo:</string>
+    <string name="title_text_view">Title:</string>
+    <string name="album_number">albumNumber</string>
+    <string name="photo_number">photoNumber</string>
+    <string name="title">title</string>
 </resources>

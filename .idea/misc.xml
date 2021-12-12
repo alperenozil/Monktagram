@@ -8,7 +8,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/album_row_layout.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_albums.xml" value="0.1503623188405797" />
-        <entry key="app/src/main/res/layout/fragment_details.xml" value="0.1503623188405797" />
+        <entry key="app/src/main/res/layout/fragment_details.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_photos.xml" value="0.1503623188405797" />
         <entry key="app/src/main/res/layout/photo_row_layout.xml" value="0.11" />
         <entry key="app/src/main/res/layout/shimmer_layout.xml" value="0.25" />
