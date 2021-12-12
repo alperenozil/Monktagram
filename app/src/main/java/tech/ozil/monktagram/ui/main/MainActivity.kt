@@ -1,4 +1,4 @@
-package tech.ozil.monktagram.ui
+package tech.ozil.monktagram.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

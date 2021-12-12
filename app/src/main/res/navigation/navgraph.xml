@@ -7,17 +7,25 @@
 
     <fragment
         android:id="@+id/albumsFragment"
-        android:name="tech.ozil.monktagram.ui.fragments.AlbumsFragment"
+        android:name="tech.ozil.monktagram.ui.albums.AlbumsFragment"
         android:label="fragment_albums"
-        tools:layout="@layout/fragment_albums" />
+        tools:layout="@layout/fragment_albums" >
+        <action
+            android:id="@+id/action_albumsFragment_to_photosFragment"
+            app:destination="@id/photosFragment" />
+    </fragment>
     <fragment
         android:id="@+id/photosFragment"
-        android:name="tech.ozil.monktagram.ui.fragments.PhotosFragment"
+        android:name="tech.ozil.monktagram.ui.photos.PhotosFragment"
         android:label="fragment_photos"
-        tools:layout="@layout/fragment_photos" />
+        tools:layout="@layout/fragment_photos" >
+        <argument
+            android:name="albumItem"
+            app:argType="tech.ozil.monktagram.model.AlbumItem" />
+    </fragment>
     <fragment
         android:id="@+id/detailsFragment"
-        android:name="tech.ozil.monktagram.ui.fragments.DetailsFragment"
+        android:name="tech.ozil.monktagram.ui.details.DetailsFragment"
         android:label="fragment_details"
         tools:layout="@layout/fragment_details" />
 </navigation>

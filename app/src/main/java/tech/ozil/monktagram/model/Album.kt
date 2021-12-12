@@ -1,4 +1,4 @@
-package tech.ozil.monktagram.models
+package tech.ozil.monktagram.model
 
 
 class Album : ArrayList<AlbumItem>()

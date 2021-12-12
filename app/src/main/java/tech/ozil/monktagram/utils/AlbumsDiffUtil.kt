@@ -1,7 +1,7 @@
 package tech.ozil.monktagram.utils
 
 import androidx.recyclerview.widget.DiffUtil
-import tech.ozil.monktagram.models.AlbumItem
+import tech.ozil.monktagram.model.AlbumItem
 
 class AlbumsDiffUtil(private val oldList: List<AlbumItem>, private val newList: List<AlbumItem>) :
     DiffUtil.Callback() {

@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import tech.ozil.monktagram.databinding.AlbumRowLayoutBinding
-import tech.ozil.monktagram.models.Album
-import tech.ozil.monktagram.models.AlbumItem
+import tech.ozil.monktagram.model.Album
+import tech.ozil.monktagram.model.AlbumItem
 import tech.ozil.monktagram.utils.AlbumsDiffUtil
 
 class AlbumAdapter : RecyclerView.Adapter<AlbumAdapter.AlbumViewHolder>() {
@@ -34,6 +34,7 @@ class AlbumAdapter : RecyclerView.Adapter<AlbumAdapter.AlbumViewHolder>() {
 
     override fun onBindViewHolder(holder: AlbumViewHolder, position: Int) {
         val currentAlbum = albums[position]
+
         holder.bind(currentAlbum)
     }
 

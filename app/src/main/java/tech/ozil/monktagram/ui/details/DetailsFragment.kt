@@ -1,4 +1,4 @@
-package tech.ozil.monktagram.ui.fragments
+package tech.ozil.monktagram.ui.details
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

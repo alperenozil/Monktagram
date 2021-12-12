@@ -1,4 +1,4 @@
-package tech.ozil.monktagram
+package tech.ozil.monktagram.ui.albums
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel

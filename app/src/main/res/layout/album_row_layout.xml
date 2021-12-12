@@ -6,11 +6,12 @@
     <data>
         <variable
             name="albumItem"
-            type="tech.ozil.monktagram.models.AlbumItem" />
+            type="tech.ozil.monktagram.model.AlbumItem" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/albumRowLayout"
+        onAlbumClickListener="@{albumItem}"
         android:layout_width="match_parent"
         android:layout_height="@dimen/album_row_layout_height"
         android:layout_marginTop="@dimen/album_row_layout_margin_top"
@@ -24,7 +25,8 @@
             android:layout_marginStart="@dimen/album_row_id_margin_start"
             android:layout_marginTop="@dimen/album_row_layout_margin_top"
             android:fontFamily="@font/lalezar"
-            android:text="@{albumItem.title}"
+            android:text="@string/album_row_id"
+            setAlbumId="@{albumItem.id}"
             android:textSize="@dimen/album_row_id_text_size"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

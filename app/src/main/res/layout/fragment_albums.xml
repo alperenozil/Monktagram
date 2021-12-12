@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.AlbumsFragment">
+    tools:context=".ui.albums.AlbumsFragment">
 
     <com.todkars.shimmer.ShimmerRecyclerView
         android:id="@+id/shimmerRecyclerView"
