@@ -11,3 +11,7 @@ MediaMonks android homework
 - **[Coil](https://github.com/coil-kt/coil):** Image loading and caching
 - **[Retrofit](https://github.com/square/retrofit):** Type safe HTTP client
 - **[Shimmer](https://github.com/omtodkar/ShimmerRecyclerView):** Placeholder for recyclerview while loading data
+
+### Demo
+
+https://youtu.be/7qYnBUeNYOo
