@@ -1,5 +1,5 @@
 ## Monktagram
-MediaMonks android homework
+Android sample project
 
 ### Tech Stack
 - **[Navigation Component](https://developer.android.com/jetpack/androidx/releases/navigation):** Consistent navigation between views
